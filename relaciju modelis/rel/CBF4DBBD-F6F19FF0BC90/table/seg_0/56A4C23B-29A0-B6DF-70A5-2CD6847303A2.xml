@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56A4C23B-29A0-B6DF-70A5-2CD6847303A2" name="User">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:21:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="1B7B9395-48AD-49CB-06ED-EB9E373497D9">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Username" id="E3BFD67B-BD3D-C593-2100-7DF7BAA9B654">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Password" id="A6209442-EFD1-E023-E755-1F93693293F0">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="3ED5E030-076C-42E3-E488-FD4D04FD5EC4">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - students, 2 - pasniedzejs]]></commentInRDBMS>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT042</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="3965832C-9C5B-D6AA-3E15-C2627A47B051">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 17:13:38 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="049CB101-610C-2EB8-05DF-7DD1CF22E44F" name="User_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B7B9395-48AD-49CB-06ED-EB9E373497D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B30AC310-BA78-9C2D-003C-EAB3D1FC2B7C" name="User__UN">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3BFD67B-BD3D-C593-2100-7DF7BAA9B654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F3183E1-D940-FDCF-92FD-66453AC3A7D6" name="User__IDX">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:27:36 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B7B9395-48AD-49CB-06ED-EB9E373497D9"/>
+<colUsage columnID="E3BFD67B-BD3D-C593-2100-7DF7BAA9B654"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+Kursu apmeklētības sistēma
+
+Sistēma paredzēta, lai uzskaitītu studiju kursu apmeklētību. Gala lietotāji ir pasniedzēji un studenti. Pasniedzēji reģistrē kursus un tajos paredzētās lekcijas, kurām tiks mērīta apmeklētība. Veicot šo darbību izvēlas arī apmeklētības mērīšanas noteikumus – kuras lekcijas ir obligātas un kuras mēra tikai statistikai, minimālo apmeklētību. 
+Studenti reģistrē savu apmeklētību ar saiti vai kodu, ko iedod pasniedzējs lekcijas laikā. Studenti var pieteikt attaisnotu kavējumu ar pamatojuma tekstu, ko pasniedzējs apstiprina. Alternatīvi arī pasniedzējs spēj reģistrēt katra stundenta apmeklējumu vai attaisnot kavējumu, bet tikai pēc tam, kad lekcija ir notikusi un, ja students nav jau reģistrējis konkrētu statusu. Šis ir nepieciešams, jo pasniedzējs var arī izvēlēties veikt apmeklētības reģistrāciju izsaucot studentus vai liekot parakstīties uz lapas, ja pasniedzējs šo uzskata par drošāku vai praktiskāku metodi.
+Studenti var apskatīt statistiku par savu kursu apmeklētību un pasniedzēji par sevis izveidoto kursu apmeklētību, un cik daudz no obligātās apmeklētības studentam ir aizpildīta. Atkarībā no iestatījumiem sistēma nosūta e-pasta paziņojumus lietotājiem par statistiku.
+Sistēmā lietotāji var autorizēties ar savu lietotājvārdu un paroli, ko piešķir datubāzes administrators. 
+

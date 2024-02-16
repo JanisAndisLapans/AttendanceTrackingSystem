@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC80791-B6CB-1A88-B59F-D70A718B50B4" name="Lecture">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:44:26 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Id" id="74E97C56-1EAE-8FF6-CCED-49EA56BBB4DD">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:45:14 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StartTime" id="025C7618-4E9B-A9E7-957B-A083E90EB79A">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:46:14 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndTime" id="DF70D215-F773-F84F-009C-C9FAD730977B">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 17:21:31 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="9E5F6017-D634-1C63-2BCB-D0B73195E225">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:47:05 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Course_id" id="FDA37E2A-57CE-978E-A6A3-10BAA1A7972B">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:47:35 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C90E572-FE05-A853-0571-7486F6099BCD" referredColumn="4D15FF3F-A8C5-6731-1F66-C9BD6859C3B2"/>
+</associations>
+</Column>
+<Column name="Mandatory" id="A041D284-5F02-D51A-95F3-284FEF059EA3">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 17:09:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - neobligāta lekcija, 1 - obligāta lekcija]]></commentInRDBMS>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AttendanceCode" id="9B1C3A5D-F086-EC09-77B3-3B562B3167B6">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 17:22:26 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE1D6EC2-3725-0D28-59F8-D6BC4FA32931" name="Lecture_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:45:14 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E97C56-1EAE-8FF6-CCED-49EA56BBB4DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04CBFF55-08FB-EA4D-DDCB-94287A72DA56" name="Lecture_Course_FK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-12 16:47:35 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDA37E2A-57CE-978E-A6A3-10BAA1A7972B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
