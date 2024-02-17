@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relaciju modelis" id="BDF789A8-CEBF-BA81-0B80-FD6BA0AF99CB" version="3.5">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-12 16:19:40 UTC</createdTime>
-<ownerDesignName>relaciju modelis</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>BDF789A8-CEBF-BA81-0B80-FD6BA0AF99CB</designId>
-</OSDM_Design>

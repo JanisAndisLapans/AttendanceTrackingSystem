@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D929EE15-12CC-CC2F-5074-3ACA6E97421B">
-<createdBy>dobbl</createdBy>
-<createdTime>2024-02-17 09:36:39 UTC</createdTime>
-<ownerDesignName>relaciju modelisv3</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>
