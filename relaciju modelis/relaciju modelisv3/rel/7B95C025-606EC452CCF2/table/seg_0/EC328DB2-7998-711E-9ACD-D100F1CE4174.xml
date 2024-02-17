@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC328DB2-7998-711E-9ACD-D100F1CE4174" name="user_settings">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>1CEAD241-BBC3-7D9D-67CD-592B44913B0C</importedID>
+<ordsAlias>usersettings</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="044B2458-C585-016E-9382-56AA480A27CF">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>CDAF3357-B5F4-2FD0-6913-3369B60B6942</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F6E7656-C57E-D6AD-522F-28BAFC8FF0FB" referredColumn="72E04675-2B8A-7987-50D3-2BC1546C1933"/>
+</associations>
+</Column>
+<Column name="warnunattended" id="704AD990-FD06-DC52-AA2D-EAC1C6C16F4C">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - sÅ«tÄ«t paziÅ†ojumu par neapmeklÄ“tu lekciju, 0 - nesÅ«tÄ«t]]></commentInRDBMS>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>06991D9E-1367-3555-7AA2-AF1CE178ACC5</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>8BA82413-4455-0813-0C6D-29D75D52C033</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sendstatistic" id="1491546C-C918-8866-89D7-E9AF08D51A3E">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - sÅ«tÄ«t statistiku pÄ“c lekcijas, 0 - nesÅ«tÄ«t]]></commentInRDBMS>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>E749113F-E2B5-49BA-ADDF-7417242A2A16</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>8BA82413-4455-0813-0C6D-29D75D52C033</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7072F4E-152B-5ADF-DA3B-B2DA452DB86E" name="usersettings_pk">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>F038FF88-732C-5805-2507-4F40EE7A86F1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044B2458-C585-016E-9382-56AA480A27CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1CA8DBB-D0DB-91EC-E6AC-9835F5EBA668" name="usersettings_user_fk">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="044B2458-C585-016E-9382-56AA480A27CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

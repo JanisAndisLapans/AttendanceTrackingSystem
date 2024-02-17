@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="user_settings" directorySegmentName="seg_0" id="EC328DB2-7998-711E-9ACD-D100F1CE4174">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="user_id" id="044B2458-C585-016E-9382-56AA480A27CF">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sendstatistic" id="1491546C-C918-8866-89D7-E9AF08D51A3E">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="warnunattended" id="704AD990-FD06-DC52-AA2D-EAC1C6C16F4C">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="usersettings_user_fk" id="F1CA8DBB-D0DB-91EC-E6AC-9835F5EBA668">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="usersettings_pk" id="D7072F4E-152B-5ADF-DA3B-B2DA452DB86E">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

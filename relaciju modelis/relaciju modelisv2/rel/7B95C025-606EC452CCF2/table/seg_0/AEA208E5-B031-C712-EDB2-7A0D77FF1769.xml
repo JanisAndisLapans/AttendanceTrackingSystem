@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA208E5-B031-C712-EDB2-7A0D77FF1769" name="lecture">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>478772DE-7AAD-4D0F-E0D1-99D2F31EC552</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="EC6DF43F-B41B-69D4-52A0-E67053537CBD">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>17A3D8E5-EDA8-24D5-3796-DE69DBC9E6B6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>8BA82413-4455-0813-0C6D-29D75D52C033</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="starttime" id="C922A915-3B9E-6238-15C9-B7C8DBA31C48">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>AB78F789-792F-E51C-53FB-12821BE8A159</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F39E5B0A-563F-F796-C509-165A7B1BA59F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endtime" id="0D8B1C5E-1DF3-63A3-5570-92EEBE76EBE9">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>4A85B464-0F05-027F-4D0F-A486C6079ED4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>F39E5B0A-563F-F796-C509-165A7B1BA59F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Comment" id="CDF97CA2-00E3-28D4-DC1C-B68DFA5EFFB2">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>8DB9ED00-1654-363D-CEED-4112EA551411</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>11A5442C-23DD-8F3C-064C-4CB6D9F03B8F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_id" id="529DE87F-95D6-69A2-459D-39FD3430CE74">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>8A7DF8C5-A905-4AEF-61B6-10F2F6AD38EA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C39B62C0-B81B-0D90-C9F7-D693233E91DD" referredColumn="7EF53AA1-2BF7-AEF1-873C-91A8501D4882"/>
+</associations>
+</Column>
+<Column name="mandatory" id="FA1B129A-6A42-4475-FEAC-7BE4F225B2B3">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - neobligÄ�ta lekcija, 1 - obligÄ�ta lekcija]]></commentInRDBMS>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>99EA8887-ABA6-81D1-F038-6CDDCC62BCAB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>8BA82413-4455-0813-0C6D-29D75D52C033</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attendancecode" id="B4947E7F-3A69-81AB-4335-A6FE8D01A893">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>1C5AADF8-7995-67BF-5321-40F27373CCB3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="ADA8FA5B-5F9D-959D-EEA1-534BF17076C9">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:37:35 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED6038C0-B0A3-345C-6C79-F33C8F63DD93" name="lecture_pk">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<importedID>73F4075F-E1BD-950C-3CC6-34CFCEE6DAD5</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC6DF43F-B41B-69D4-52A0-E67053537CBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9726BF2-0031-AFB4-51E2-A10DFAAE2062" name="lecture_course_fk">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="529DE87F-95D6-69A2-459D-39FD3430CE74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

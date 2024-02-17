@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0635AB9C-E580-8560-4AC9-0143F48A2ECB" mainViewID="D678711F-D88F-A7B0-3E80-F0FB3EF8D665">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:36:38 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

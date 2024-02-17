@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5C47F8A7-9474-6A1E-8043-C8E02D37EA7C">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:36:38 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

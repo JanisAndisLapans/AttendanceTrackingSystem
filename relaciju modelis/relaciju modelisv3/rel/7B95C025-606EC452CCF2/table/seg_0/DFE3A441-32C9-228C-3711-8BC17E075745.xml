@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE3A441-32C9-228C-3711-8BC17E075745" name="attendance_file">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:38:35 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="772B2A2F-263E-FF8A-709B-9609644534EA">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_name" id="D5184280-8613-6761-61ED-A6A1A9D35601">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_data" id="E21A21CA-C495-48BC-1153-C7C8A96CD492">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attendance_id" id="3600CE61-52B1-FBEE-5B6F-1472B5AF2E67">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:52:01 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C204AFEC-AA22-05B6-C057-91B49DF14336" referredColumn="334F01F8-5692-5156-B300-EE60FF5ABFC2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ED3FA30-0A72-6A9F-0DE6-034A41DAE344" name="file_PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="772B2A2F-263E-FF8A-709B-9609644534EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16F30835-E25E-3D4A-A35E-F206B021A77B" name="file_attendance_FK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:52:01 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3600CE61-52B1-FBEE-5B6F-1472B5AF2E67"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

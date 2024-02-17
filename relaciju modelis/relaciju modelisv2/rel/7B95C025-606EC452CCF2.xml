@@ -1,9 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="AttendanceTrackingSystem" id="7B95C025-DC27-D53C-E1AF-606EC452CCF2" mainViewID="FD0F9A2B-6D0B-6887-9120-E32E80A55D2C">
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Create" id="7B95C025-DC27-D53C-E1AF-606EC452CCF2" mainViewID="FD0F9A2B-6D0B-6887-9120-E32E80A55D2C">
 <createdBy>dobbl</createdBy>
 <createdTime>2024-02-17 09:58:03 UTC</createdTime>
-<ownerDesignName>relaciju modelis</ownerDesignName>
-<shouldBeOpen>true</shouldBeOpen>
+<ownerDesignName>relaciju modelisv2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
 <selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">

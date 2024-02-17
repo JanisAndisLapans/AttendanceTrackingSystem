@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C919DCF-41E7-0F7B-594F-2B4900862A75" name="student_course">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>5E5104EC-D9B3-6AF6-1510-93867414AE30</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="410E007A-BB81-6B29-C5C7-C7B1CC4BA0C2">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>0B747609-3D83-5496-0254-23853CD1C51B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="course_id" id="5BFBD461-FF0D-C00A-BA3A-0429D9EEFB57">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>B8A61B36-E6B1-301F-7252-1A9E3F9021AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77A585AA-B467-3B99-40D6-39DF40F827ED" referredColumn="7EF53AA1-2BF7-AEF1-873C-91A8501D4882"/>
+</associations>
+</Column>
+<Column name="student_id" id="DE97DBA9-1432-E3AE-BD7A-148A678E3815">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>8CF9399A-1042-CBC3-F7B1-6BA54E86D02C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F624B2B-CFB9-04C9-FCE3-CE73E4993F8B" referredColumn="72E04675-2B8A-7987-50D3-2BC1546C1933"/>
+</associations>
+</Column>
+<Column name="attendance_statistic_file" id="B9ED824C-DBE2-D3DF-D3D9-7867EAADD6B7">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:59:18 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92B9E02A-6E62-5D50-859A-2593666904BF" name="student_course_pk">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<importedID>29F87ACF-4DAD-624F-2BAE-D6FBA21C88E1</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410E007A-BB81-6B29-C5C7-C7B1CC4BA0C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6122E48A-6926-FF7C-DE22-BDE52A14C9EB" name="student_course_course_fk">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BFBD461-FF0D-C00A-BA3A-0429D9EEFB57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A58CA01C-EBDE-ADA4-A566-C5F37AB1EF73" name="student_course_user_fk">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelisv3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE97DBA9-1432-E3AE-BD7A-148A678E3815"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
