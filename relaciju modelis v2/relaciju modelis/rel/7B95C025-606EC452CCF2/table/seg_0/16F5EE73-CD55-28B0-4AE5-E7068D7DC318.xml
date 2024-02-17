@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16F5EE73-CD55-28B0-4AE5-E7068D7DC318" name="user">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<importedID>FAED9B19-B569-F12F-0EAF-E271C82237D0</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="72E04675-2B8A-7987-50D3-2BC1546C1933">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>02AE31D5-6450-CBBA-B3EA-67513D63B31C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="B78763FD-6108-2EC9-9847-7C7E3E7B78CA">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>497CAC92-C61A-B81C-8B3F-738D42CC453F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5D407B29-BCBE-BA36-43F5-73D061C152C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="395B8477-2894-BC20-5F14-CDF01527FD39">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>938E7D1D-F23F-EABC-61DA-8FB5A7315C0E</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C37EA4F4-E6F0-95E7-1F61-888E57AFC5B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="12C350A8-6F6F-84C6-719D-F2AB71C96490">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - students, 2 - pasniedzejs]]></commentInRDBMS>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>F63ABA15-167A-89B9-4E03-1EC5E78CC167</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT018</logicalDatatype>
+<domain>8BA82413-4455-0813-0C6D-29D75D52C033</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="D062EACE-E268-C2B9-B234-DA246B48D7AC">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>D94A2781-46EE-DB5D-B89F-12F48B9BA986</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>5D407B29-BCBE-BA36-43F5-73D061C152C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B793596-2618-B79A-2B88-1C4CCB5318C3" name="user_pk">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>7918E2CB-60B2-F247-7A19-599511DE30ED</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72E04675-2B8A-7987-50D3-2BC1546C1933"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C601E3A-8BBC-684F-8445-079A4CC4276A" name="user__un">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>CEC120A9-CA0E-FAC1-F09B-7ECCA524BE72</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B78763FD-6108-2EC9-9847-7C7E3E7B78CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="685E0D50-BEAD-5146-8972-AEE2907BCB55" name="user__idx">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>relaciju modelis</ownerDesignName>
+<importedID>5D47D689-92AD-F0F7-9B0F-B9FC268FD895</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72E04675-2B8A-7987-50D3-2BC1546C1933"/>
+<colUsage columnID="B78763FD-6108-2EC9-9847-7C7E3E7B78CA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
