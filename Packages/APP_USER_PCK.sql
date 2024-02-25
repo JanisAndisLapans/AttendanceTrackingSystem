@@ -55,7 +55,12 @@ begin
 
     out_id := v_id;
 
+    -- Izsūta lietotājam informāciju par piereģistrēšanu ar paroli un lietotājvārdu
 
+    I_EMAIL_PCK.send_mail(
+        in_to => in_email,
+        in_message => ''
+    );
 exception
     when others then
         out_error := I_UTILITIES_PCK.c_default_error;
