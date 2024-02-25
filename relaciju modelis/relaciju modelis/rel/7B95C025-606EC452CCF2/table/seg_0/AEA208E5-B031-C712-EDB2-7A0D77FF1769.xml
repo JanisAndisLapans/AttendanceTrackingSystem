@@ -1,10 +1,11 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA208E5-B031-C712-EDB2-7A0D77FF1769" name="lecture">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEA208E5-B031-C712-EDB2-7A0D77FF1769" name="lectures">
 <sourceDDLFile>Create.sql</sourceDDLFile>
 <createdBy>dobbl</createdBy>
 <createdTime>2024-02-17 09:58:22 UTC</createdTime>
 <ownerDesignName>relaciju modelis</ownerDesignName>
 <importedID>478772DE-7AAD-4D0F-E0D1-99D2F31EC552</importedID>
+<ordsAlias>lecture</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>

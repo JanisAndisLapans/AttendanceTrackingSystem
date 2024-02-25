@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE3A441-32C9-228C-3711-8BC17E075745" name="attendance_file">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE3A441-32C9-228C-3711-8BC17E075745" name="attendance_files">
 <createdBy>dobbl</createdBy>
 <createdTime>2024-02-17 10:38:35 UTC</createdTime>
 <ownerDesignName>relaciju modelis</ownerDesignName>
@@ -35,7 +35,7 @@
 <ownerDesignName>relaciju modelis</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LogDes-7DD553FD-11E8-61FA-399D-2E531FB621D0@LOGDT10035</logicalDatatype>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
