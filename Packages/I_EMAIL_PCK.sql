@@ -17,7 +17,8 @@ begin
   UTL_SMTP.data(v_mail_conn, in_message || UTL_TCP.crlf || UTL_TCP.crlf);
 end;
 
-procedure open_conn as 
+procedure open_conn
+as 
 begin
     v_mail_conn := UTL_SMTP.open_connection(c_smtp_host, c_smtp_port);
     UTL_SMTP.helo(v_mail_conn, c_smtp_host);
