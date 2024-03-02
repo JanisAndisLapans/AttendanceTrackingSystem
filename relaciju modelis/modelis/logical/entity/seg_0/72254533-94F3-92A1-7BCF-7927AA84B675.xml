@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="72254533-94F3-92A1-7BCF-7927AA84B675" name="lecture">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>AEA208E5-B031-C712-EDB2-7A0D77FF1769</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="starttime" id="B8FE5BE4-1573-0746-1483-E7DFFB36190F">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>C922A915-3B9E-6238-15C9-B7C8DBA31C48</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endtime" id="B4D63F66-864B-C729-F36D-FC8B8BD2565D">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>0D8B1C5E-1DF3-63A3-5570-92EEBE76EBE9</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comment" id="71195AE2-8CD2-1892-8EC2-ACFA636827E3">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>CDF97CA2-00E3-28D4-DC1C-B68DFA5EFFB2</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mandatory" id="D6F1A577-86FC-D48D-E6C5-CE0C9F519A0F">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[0 - neobligata lekcija, 1 - obligata lekcija]]></commentInRDBMS>
+<generatorID>FA1B129A-6A42-4475-FEAC-7BE4F225B2B3</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>1</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="attendancecode" id="CCDA2796-CBCB-5F77-DB0B-878278656F5A">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>B4947E7F-3A69-81AB-4335-A6FE8D01A893</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="732CB3F4-6980-1128-3CC7-F4D99E497C61">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>ADA8FA5B-5F9D-959D-EEA1-534BF17076C9</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course id" id="6D7D8CCA-463A-3427-131D-A088CAE3E8B1">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:16:31 UTC</createdTime>
+<generatorID>529DE87F-95D6-69A2-459D-39FD3430CE74</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

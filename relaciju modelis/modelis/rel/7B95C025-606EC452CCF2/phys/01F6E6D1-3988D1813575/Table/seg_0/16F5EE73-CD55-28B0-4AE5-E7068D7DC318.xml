@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="user" directorySegmentName="seg_0" id="16F5EE73-CD55-28B0-4AE5-E7068D7DC318">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="first_login" id="04C56803-3B0E-769E-20AC-55A0C9F3812D">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:35:57 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="send_lecture_statistic" id="199ECD0C-4460-1F33-68B2-A65748EFB89F">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="password" id="395B8477-2894-BC20-5F14-CDF01527FD39">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="send_end_statistic" id="623B4184-8C41-F17A-DBB4-138895979860">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:13:05 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="student_code" id="6BB6FDB2-6F26-93E6-A6F9-4244E1312440">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="6E26409A-DF12-D433-3F2C-C08DA85B8BDE">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="first_name" id="A3745122-546F-F905-A769-00743A6B354F">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="last_name" id="ACCE2098-7D28-FBB9-2BE3-6DEF60831DD9">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="username" id="B78763FD-6108-2EC9-9847-7C7E3E7B78CA">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="warn_unattended" id="BA355633-F5B0-D92D-9F83-C5F12581D168">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_type" id="C5F1C6C8-8634-4655-A83E-3CF3279A6F12">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:22:42 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="D062EACE-E268-C2B9-B234-DA246B48D7AC">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="user__idx" id="685E0D50-BEAD-5146-8972-AEE2907BCB55">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<logging></logging>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="user_user_type_FK" id="97A90B0C-5EC8-9031-7D66-F69867119BEC">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:22:42 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="user_PK" id="8F0E8C8A-0652-BF7F-295C-9DC7B5B379CF">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

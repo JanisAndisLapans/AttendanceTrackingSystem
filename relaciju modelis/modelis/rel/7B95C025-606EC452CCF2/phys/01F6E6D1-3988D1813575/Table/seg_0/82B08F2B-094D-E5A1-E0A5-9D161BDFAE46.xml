@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="error_log" directorySegmentName="seg_0" id="82B08F2B-094D-E5A1-E0A5-9D161BDFAE46">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="procedure" id="3FF57B77-DD52-B7AD-1F7C-9D65CC24C61B">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="timestamp" id="473C0BDC-205E-5D6F-C6C0-4B7AAD46BCC3">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="5699DF2A-CECE-F2C4-7037-35ACAB5745F8">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:43:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="E74F76B7-05E6-4BFA-AC3C-F9B51245B5AC">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="stacktrace" id="EA8AC480-06E7-CC47-6B66-7FE06014ACB2">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="error_log_user_FK" id="D8F22345-FF01-304E-DDC5-24AB817B932C">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:43:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="error_log_PK" id="E011C1EE-D993-AAE0-11B2-0E0791012253">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

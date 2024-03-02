@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC6F2C51-A9F5-BA06-3DD6-44DEF9ED8341" name="attendance_status">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:15:02 UTC</createdTime>
+<generatorID>BD55E375-0889-FAE5-CCAD-90979549580B</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B65CF3D0-E931-EF0B-6585-1726E821CF98">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:20:41 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="76565817-7F02-AE6C-1110-D6BA47C987FA">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:15:02 UTC</createdTime>
+<generatorID>5683983A-E4E3-F3FC-579A-1882EB37C272</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2E333E98-2F26-664C-DAED-CE56387180C3" name="attendance_status_PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:20:41 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B65CF3D0-E931-EF0B-6585-1726E821CF98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B06AAD3-A773-9FD5-77AB-7DD7BD24974F" name="attendance_status__UNv1">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:20:01 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76565817-7F02-AE6C-1110-D6BA47C987FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

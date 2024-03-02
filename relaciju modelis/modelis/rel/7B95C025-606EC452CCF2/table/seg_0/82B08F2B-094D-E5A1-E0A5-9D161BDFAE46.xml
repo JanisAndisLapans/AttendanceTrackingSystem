@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82B08F2B-094D-E5A1-E0A5-9D161BDFAE46" name="error_log">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-25 12:47:50 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E74F76B7-05E6-4BFA-AC3C-F9B51245B5AC">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 12:08:38 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timestamp" id="473C0BDC-205E-5D6F-C6C0-4B7AAD46BCC3">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-25 12:51:26 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="procedure" id="3FF57B77-DD52-B7AD-1F7C-9D65CC24C61B">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-25 12:51:26 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stacktrace" id="EA8AC480-06E7-CC47-6B66-7FE06014ACB2">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-25 12:51:26 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_id" id="5699DF2A-CECE-F2C4-7037-35ACAB5745F8">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:43:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA34ACC0-02B7-7BDA-9081-9DF0405490C0" referredColumn="6E26409A-DF12-D433-3F2C-C08DA85B8BDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E011C1EE-D993-AAE0-11B2-0E0791012253" name="error_log_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 12:08:38 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E74F76B7-05E6-4BFA-AC3C-F9B51245B5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8F22345-FF01-304E-DDC5-24AB817B932C" name="error_log_user_FK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:43:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5699DF2A-CECE-F2C4-7037-35ACAB5745F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="41D98226-B3C3-9689-7762-FF820E62024C" name="attendance file">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>DFE3A441-32C9-228C-3711-8BC17E075745</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="file name" id="6EC9943C-312B-DFF6-AA40-69BBA016E776">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>D5184280-8613-6761-61ED-A6A1A9D35601</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file data" id="FACC8D75-D10B-39F7-5832-606E256E8C64">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>E21A21CA-C495-48BC-1153-C7C8A96CD492</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="1F178B7A-5F70-F323-5448-8361E3C6C08D">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:16:31 UTC</createdTime>
+<generatorID>3600CE61-52B1-FBEE-5B6F-1472B5AF2E67</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A94BD4F-17D1-E587-7596-A9BDD1AA455B" name="attendance_file_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>2ED3FA30-0A72-6A9F-0DE6-034A41DAE344</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="student_course" directorySegmentName="seg_0" id="87273738-3DCC-0F2A-847F-764D63B622D6">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="course_id" id="064E4842-8EA2-441D-7FF6-E4208B8778FA">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="C75D046F-0088-386C-FE29-8BAE08FE463E">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="user_id" id="CE877375-07A7-35DE-055F-905048FD5AD3">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="attendance_statistics_file" id="F1608758-ED2F-50C3-08B5-124A7AC3584B">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="student_course_course_FK" id="30C779C1-FED0-DAF5-3E83-A4591770A9B1">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="student_course_user_FK" id="AE532C6C-AE75-96C9-9D9B-466DA5F12379">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="student_coursev1_PK" id="9F529731-178A-AA84-27DF-BC03FCD16774">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

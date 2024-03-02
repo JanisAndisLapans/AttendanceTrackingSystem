@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44E5B9C1-326D-F606-3FC2-F6C9083C03AD" name="user_type">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:46:50 UTC</createdTime>
+<generatorID>79AA22C8-933D-9645-992B-5426C20DA945</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CCE85F65-5B45-8A64-64B3-8A0131D5897F">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:21:21 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="FF34E395-101A-30AC-D6B3-29EFD80628B8">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:46:50 UTC</createdTime>
+<generatorID>3FA03BFE-5F25-819A-FC54-9646F35B0228</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="06596F17-C21D-41BD-52D7-8E3B5231FE17" name="user_type_PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:21:21 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCE85F65-5B45-8A64-64B3-8A0131D5897F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB52FF3E-0AC0-EB81-A443-1A0F7C3C694A" name="user_type_name_UN">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:54:40 UTC</createdTime>
+<generatorID>66F6818E-96C1-0FF0-0111-75C378F2DA5A</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF34E395-101A-30AC-D6B3-29EFD80628B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

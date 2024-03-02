@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="581E76CC-40E3-C6A6-7561-CB73CF73B9F3" name="course">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>BE206C46-86F3-85A6-33B0-18F33700BF68</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="9C73275D-0692-56F0-DA37-0454CCF9C784">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>A2FA8B37-B7DD-AE44-B252-546B0A4D62D1</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="register minutes" id="A6DE8DD4-CBA2-E339-4695-C06A07BEAC1E">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mintes no sakuma, kuras var registret apmeklejumu]]></commentInRDBMS>
+<generatorID>A86E419E-3844-9BE1-340B-75CB6E8A60C2</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="minimum attendance" id="78DAE40C-72B4-19E9-04C0-6BA71635C37E">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[Procents minimāli apmeklēto lekciju]]></commentInRDBMS>
+<generatorID>057FF5F1-8A50-02CF-6CF3-10DE3C6FD53A</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lecturer id" id="1ABFEA04-1AA6-32CF-B500-50942710C3C1">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:16:31 UTC</createdTime>
+<generatorID>121AAD81-011E-C6A6-BA97-0A1640ACE22B</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

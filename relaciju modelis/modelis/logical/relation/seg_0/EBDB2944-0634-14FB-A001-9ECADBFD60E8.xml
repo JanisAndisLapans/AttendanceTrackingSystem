@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="student_course" directorySegmentName="seg_0" id="EBDB2944-0634-14FB-A001-9ECADBFD60E8">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:40:51 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>student_registered_to_course</nameOnSource>
+<nameOnTarget>course_has_student_registered</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>F6DAB2FE-4CF9-4DC7-430A-550E89FE151D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>581E76CC-40E3-C6A6-7561-CB73CF73B9F3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="attendance statistics file" id="31EC2D17-D732-9AE6-0080-8987919B6E76">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:41:28 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

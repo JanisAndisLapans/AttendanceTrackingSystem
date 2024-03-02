@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="21FDB6E7-8B38-F107-40A4-C98AAFD8E88E" name="semester">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 12:04:47 UTC</createdTime>
+<generatorID>8D7CDFD4-62BF-FC55-72C4-EC65AC60858A</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6779883F-C089-658F-48EF-1CF4969EAB35">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 12:05:56 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="year" id="D39E9B76-A114-7F2C-4175-CA8B797106B6">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:29:56 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="season" id="8481F186-5A8E-AA89-53BA-DBBA22E9AE62">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:29:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - rudens, 2 - pavasara]]></commentInRDBMS>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="596F0312-5B40-8A59-20AC-ACF4DA1F6A3C" name="Semester_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 12:05:56 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6779883F-C089-658F-48EF-1CF4969EAB35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7353A778-E21D-4EF5-148D-8D70FD6C588E" name="Semester__UN">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:30:34 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D39E9B76-A114-7F2C-4175-CA8B797106B6"/>
+<colUsage columnID="8481F186-5A8E-AA89-53BA-DBBA22E9AE62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

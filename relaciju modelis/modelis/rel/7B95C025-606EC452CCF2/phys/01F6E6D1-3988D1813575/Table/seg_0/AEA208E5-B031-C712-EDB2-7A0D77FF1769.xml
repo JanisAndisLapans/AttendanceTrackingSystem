@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="lecture" directorySegmentName="seg_0" id="AEA208E5-B031-C712-EDB2-7A0D77FF1769">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="endtime" id="0D8B1C5E-1DF3-63A3-5570-92EEBE76EBE9">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="22A1E388-572A-872A-0025-1289B4B89F0E">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="course_id" id="529DE87F-95D6-69A2-459D-39FD3430CE74">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="semester_id" id="98688805-914F-FC26-F5AB-C4046BA40560">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Name" id="ADA8FA5B-5F9D-959D-EEA1-534BF17076C9">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:37:35 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="attendancecode" id="B4947E7F-3A69-81AB-4335-A6FE8D01A893">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="starttime" id="C922A915-3B9E-6238-15C9-B7C8DBA31C48">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Comment" id="CDF97CA2-00E3-28D4-DC1C-B68DFA5EFFB2">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<nameHasQuotes>true</nameHasQuotes>
+</ColumnProxy>
+<ColumnProxy name="mandatory" id="FA1B129A-6A42-4475-FEAC-7BE4F225B2B3">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lectures_semesters_FK" id="45BDA0C2-1D94-5827-7CD9-C8BBB90F97A8">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="lecture_course_FK" id="E890A627-1655-64CA-1736-B71A79E112AB">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:26:11 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="lecture_PK" id="45861314-B420-8BE6-5E44-D3A0CF6CAD25">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:34:16 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79AA22C8-933D-9645-992B-5426C20DA945" name="user type">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:35:40 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="3FA03BFE-5F25-819A-FC54-9646F35B0228">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:36:23 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66F6818E-96C1-0FF0-0111-75C378F2DA5A" name="user_type_name_UN">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 07:54:01 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="false"/>
+</engineerTo>
+<newElementsIDs>3FA03BFE-5F25-819A-FC54-9646F35B0228</newElementsIDs>
+<usedAttributes>
+<attributeRef>3FA03BFE-5F25-819A-FC54-9646F35B0228</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

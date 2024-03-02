@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF353519-D3F3-FC49-7447-1811C180A678" name="attendance">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>49E8A674-B300-E6DD-2D72-D0C70C42816B</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4ADF2EFB-AC1C-080A-6FD6-B4AB0E42657B">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 11:40:14 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="skipreason" id="C8549DBE-23DD-8FA4-555E-1CA1234A31AB">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>E7C3DE50-FE83-DEE5-B54B-D7CD46AF7670</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>CDA28DE2-B1CF-6CE9-3A93-CB86D81F82EA</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="DAD6DBE9-6C4D-E5F4-8965-B9016C9A4468">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>74C8F3EE-8AE0-EABB-1DA8-98B901434722</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lecture_id" id="E5CF8585-028C-8C7C-F2B8-8B454AED62FA">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:27:54 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6816E10-7C3C-A2DE-E3A5-2B1DD430127C" referredColumn="22A1E388-572A-872A-0025-1289B4B89F0E"/>
+</associations>
+</Column>
+<Column name="attendance_status" id="F7ABA3DE-5FD6-C543-EB01-2F7251B78049">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:31:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29AD8D92-DC2D-8769-BB9F-8718FD9D81D7" referredColumn="B65CF3D0-E931-EF0B-6585-1726E821CF98"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F737EF05-578F-CA7B-A2FA-ECEEB21EC98D" name="attendance_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 11:40:14 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="4ADF2EFB-AC1C-080A-6FD6-B4AB0E42657B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C092786-AEAF-D192-CD32-A5BBBD1C3BBD" name="attendance_lecture_FK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:27:54 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5CF8585-028C-8C7C-F2B8-8B454AED62FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4F66628-F6C1-76AC-64B1-1E9EADD52316" name="attendance_attendance_status_FK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:31:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7ABA3DE-5FD6-C543-EB01-2F7251B78049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

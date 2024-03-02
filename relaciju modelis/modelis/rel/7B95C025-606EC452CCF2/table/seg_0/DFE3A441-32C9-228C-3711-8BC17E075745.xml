@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFE3A441-32C9-228C-3711-8BC17E075745" name="attendance_file">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:38:35 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3600CE61-52B1-FBEE-5B6F-1472B5AF2E67">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:52:01 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_name" id="D5184280-8613-6761-61ED-A6A1A9D35601">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="file_data" id="E21A21CA-C495-48BC-1153-C7C8A96CD492">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="attendance_id" id="FA967C14-2A0B-7267-D197-2E091ED08437">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:31:06 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD30583C-FE3E-BBB0-CB48-E6F94EDBD30B" referredColumn="4ADF2EFB-AC1C-080A-6FD6-B4AB0E42657B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ED3FA30-0A72-6A9F-0DE6-034A41DAE344" name="attendance_file_PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 10:44:30 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="A2BCECAF-4381-3182-FEFA-0D2EDD186CE0" name="attendance_file_attendance_FK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:31:06 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA967C14-2A0B-7267-D197-2E091ED08437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="attendance_lecture_fk" directorySegmentName="seg_0" id="230E7E8E-734E-F10C-C449-366C6F726367">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<generatorID>39970203-8485-E880-2707-584DAB11863D</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>lecture_has_attendances</nameOnSource>
+<nameOnTarget>attendance_relates_to_lecture</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72254533-94F3-92A1-7BCF-7927AA84B675</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A1368E4-A253-BD83-B390-73BB78AB65A8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

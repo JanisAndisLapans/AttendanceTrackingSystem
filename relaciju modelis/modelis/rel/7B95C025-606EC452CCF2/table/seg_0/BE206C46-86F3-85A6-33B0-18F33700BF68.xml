@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE206C46-86F3-85A6-33B0-18F33700BF68" name="course">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>326667E9-A1AD-5AD6-A9A4-1C7C89E58C15</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="39A5CBE5-DA03-A231-1588-1FDE4DD39C2F">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 11:40:14 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="name" id="A2FA8B37-B7DD-AE44-B252-546B0A4D62D1">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>781E2AF6-0832-2FFD-A8AD-7C5B9FAD2F0F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>C39C01C8-FF91-4215-2C45-7EADC68883F8</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="register_minutes" id="A86E419E-3844-9BE1-340B-75CB6E8A60C2">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Mintes no sakuma, kuras var registret apmeklejumu]]></commentInRDBMS>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>7803B5A6-E374-C0D0-9CB8-65A555BCA1EC</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="minimum_attendance" id="057FF5F1-8A50-02CF-6CF3-10DE3C6FD53A">
+<sourceDDLFile>Create.sql</sourceDDLFile>
+<createdBy>dobbl</createdBy>
+<createdTime>2024-02-17 09:58:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[Procents minimāli apmeklēto lekciju]]></commentInRDBMS>
+<ownerDesignName>modelis</ownerDesignName>
+<importedID>D3D73781-EDEA-4F33-658C-B152F46CEDBE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lecturer_id" id="4C47A171-85AA-31A3-C146-06BB53A703BE">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:42:24 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="494BFBA6-EEFB-EB89-8EA4-E6F60EDAD03D" referredColumn="6E26409A-DF12-D433-3F2C-C08DA85B8BDE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="453A1347-553C-6DB0-442F-2832101A2B25" name="courses_PK">
+<createdBy>Students</createdBy>
+<createdTime>2024-02-26 11:40:14 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="39A5CBE5-DA03-A231-1588-1FDE4DD39C2F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC94A11C-23AE-1652-03C4-3ED4400D2607" name="lecturer_fk">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-02 08:42:24 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C47A171-85AA-31A3-C146-06BB53A703BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
