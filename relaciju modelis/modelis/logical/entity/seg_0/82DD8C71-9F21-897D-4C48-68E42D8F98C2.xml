@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82DD8C71-9F21-897D-4C48-68E42D8F98C2" name="semester">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>21FDB6E7-8B38-F107-40A4-C98AAFD8E88E</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="year" id="29C13F85-C5EA-9C79-B611-CEFD9E2B3982">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>D39E9B76-A114-7F2C-4175-CA8B797106B6</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="season" id="206F8075-8EA1-B486-3F6C-5A783C33E628">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[1 - rudens, 2 - pavasara]]></commentInRDBMS>
+<generatorID>8481F186-5A8E-AA89-53BA-DBBA22E9AE62</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="23BBC6F2-3832-1084-449D-8A1CBA464622" name="Semester  UN">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>7353A778-E21D-4EF5-148D-8D70FD6C588E</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<newElementsIDs>29C13F85-C5EA-9C79-B611-CEFD9E2B3982,206F8075-8EA1-B486-3F6C-5A783C33E628</newElementsIDs>
+<usedAttributes>
+<attributeRef>29C13F85-C5EA-9C79-B611-CEFD9E2B3982</attributeRef>
+<attributeRef>206F8075-8EA1-B486-3F6C-5A783C33E628</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="D54D4305-0A46-5721-656A-5183BB805240" name="semester PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:10:18 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29C13F85-C5EA-9C79-B611-CEFD9E2B3982</attributeRef>
+<attributeRef>206F8075-8EA1-B486-3F6C-5A783C33E628</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

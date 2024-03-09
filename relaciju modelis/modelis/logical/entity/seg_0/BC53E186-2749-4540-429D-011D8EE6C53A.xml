@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC53E186-2749-4540-429D-011D8EE6C53A" name="error log">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>82B08F2B-094D-E5A1-E0A5-9D161BDFAE46</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="timestamp" id="F437DE9B-1C30-77F0-0C0D-81289E91156B">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>473C0BDC-205E-5D6F-C6C0-4B7AAD46BCC3</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="procedure" id="DFFF8588-467D-D48E-3EC2-B43C50765200">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>3FF57B77-DD52-B7AD-1F7C-9D65CC24C61B</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stacktrace" id="EF1A177A-2661-3455-5E95-D5AA7A4FC9BF">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>EA8AC480-06E7-CC47-6B66-7FE06014ACB2</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E0ED1582-516E-1B8D-4422-B03CA7E906A6" name="error log PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>E011C1EE-D993-AAE0-11B2-0E0791012253</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

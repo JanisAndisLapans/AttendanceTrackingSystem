@@ -48,21 +48,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Comment" id="CDF97CA2-00E3-28D4-DC1C-B68DFA5EFFB2">
-<sourceDDLFile>Create.sql</sourceDDLFile>
-<createdBy>dobbl</createdBy>
-<createdTime>2024-02-17 09:58:22 UTC</createdTime>
-<ownerDesignName>modelis</ownerDesignName>
-<nameHasQuotes>true</nameHasQuotes>
-<importedID>8DB9ED00-1654-363D-CEED-4112EA551411</importedID>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>11A5442C-23DD-8F3C-064C-4CB6D9F03B8F</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="course_id" id="529DE87F-95D6-69A2-459D-39FD3430CE74">
 <sourceDDLFile>Create.sql</sourceDDLFile>
 <createdBy>dobbl</createdBy>

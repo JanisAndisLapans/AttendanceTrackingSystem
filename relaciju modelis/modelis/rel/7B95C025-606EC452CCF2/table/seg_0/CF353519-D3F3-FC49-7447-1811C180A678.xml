@@ -36,18 +36,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="student_id" id="DAD6DBE9-6C4D-E5F4-8965-B9016C9A4468">
-<sourceDDLFile>Create.sql</sourceDDLFile>
-<createdBy>dobbl</createdBy>
-<createdTime>2024-02-17 09:58:22 UTC</createdTime>
-<ownerDesignName>modelis</ownerDesignName>
-<importedID>74C8F3EE-8AE0-EABB-1DA8-98B901434722</importedID>
-<use>0</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<domain>37A3E3B4-3CC7-FB01-3C38-8819D7E401B7</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="lecture_id" id="E5CF8585-028C-8C7C-F2B8-8B454AED62FA">
 <createdBy>dobbl</createdBy>
 <createdTime>2024-03-02 08:27:54 UTC</createdTime>
@@ -74,6 +62,20 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="29AD8D92-DC2D-8769-BB9F-8718FD9D81D7" referredColumn="B65CF3D0-E931-EF0B-6585-1726E821CF98"/>
+</associations>
+</Column>
+<Column name="student_id" id="CB379D4A-E241-17A1-3790-532A28B52C01">
+<createdBy>Students</createdBy>
+<createdTime>2024-03-04 16:48:34 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09DE69E2-5594-89E6-7B08-D2F1830584BA" referredColumn="6E26409A-DF12-D433-3F2C-C08DA85B8BDE"/>
 </associations>
 </Column>
 </columns>
@@ -106,6 +108,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F7ABA3DE-5FD6-C543-EB01-2F7251B78049"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B5D6997-4E91-0F26-3F22-353A5FA9E861" name="attendance_user_FK">
+<createdBy>Students</createdBy>
+<createdTime>2024-03-04 16:48:34 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB379D4A-E241-17A1-3790-532A28B52C01"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

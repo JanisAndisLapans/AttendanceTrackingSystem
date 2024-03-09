@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2DF1AB62-63C7-3517-C333-B0F12CB2BFA3" name="attendance status">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>AC6F2C51-A9F5-BA06-3DD6-44DEF9ED8341</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="D77FAF34-95FA-8FED-7F8D-D43A156D37CE">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>76565817-7F02-AE6C-1110-D6BA47C987FA</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAD57861-F781-C2F5-BFBE-4B5AC67FA6D5" name="attendance status PK">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>2E333E98-2F26-664C-DAED-CE56387180C3</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+<identifier id="030A5EE5-E89D-0B9B-9EBA-CAAB72C2251E" name="attendance status  UNv1">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>4B06AAD3-A773-9FD5-77AB-7DD7BD24974F</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>D77FAF34-95FA-8FED-7F8D-D43A156D37CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

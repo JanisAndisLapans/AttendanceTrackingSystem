@@ -1,7 +1,8 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="79AA22C8-933D-9645-992B-5426C20DA945" name="user type">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4E2632E2-5F74-D434-C88D-E2892A087C7C" name="attendance file">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 07:35:40 UTC</createdTime>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>DFE3A441-32C9-228C-3711-8BC17E075745</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -15,9 +16,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="name" id="3FA03BFE-5F25-819A-FC54-9646F35B0228">
+<Attribute name="file name" id="FA1A6016-27DC-A8CE-1C2E-7EDABFF13156">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 07:36:23 UTC</createdTime>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>D5184280-8613-6761-61ED-A6A1A9D35601</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -25,22 +27,21 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="file data" id="4F50C376-501D-82F6-69B7-9EB146E3E0D7">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>E21A21CA-C495-48BC-1153-C7C8A96CD492</generatorID>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="66F6818E-96C1-0FF0-0111-75C378F2DA5A" name="user_type_name_UN">
-<createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 07:54:01 UTC</createdTime>
-<ownerDesignName>modelis</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
-<engineerTo>
-<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="false"/>
-</engineerTo>
-<newElementsIDs>3FA03BFE-5F25-819A-FC54-9646F35B0228</newElementsIDs>
-<usedAttributes>
-<attributeRef>3FA03BFE-5F25-819A-FC54-9646F35B0228</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

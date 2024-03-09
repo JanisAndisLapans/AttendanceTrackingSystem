@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="student_course_fk" directorySegmentName="seg_0" id="352AB274-E5E9-32FC-C938-7DA4C3AF6A77">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:12:15 UTC</createdTime>
+<ownerDesignName>modelis</ownerDesignName>
+<engineerTo>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>course has students attending</nameOnSource>
+<nameOnTarget>user is attending a course</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>414405F9-9F6E-3822-BB48-B6FC9979DFC7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>94FC22ED-A3FF-7ECD-E044-8D4268ADD3EA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

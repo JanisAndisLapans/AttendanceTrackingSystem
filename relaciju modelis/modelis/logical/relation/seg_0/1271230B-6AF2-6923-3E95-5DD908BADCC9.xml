@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="367C9C46-FB36-0B48-D9D6-6BC7FD767BC2">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="attendance_lecture_FKv1" directorySegmentName="seg_0" id="1271230B-6AF2-6923-3E95-5DD908BADCC9">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:14:44 UTC</createdTime>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>E6816E10-7C3C-A2DE-E3A5-2B1DD430127C</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
-<sourcePk>82B849BE-63AC-5FE1-010C-AC5C38B1DCCD</sourcePk>
+<useSurrogateKey>true</useSurrogateKey>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>BD55E375-0889-FAE5-CCAD-90979549580B</sourceEntity>
+<sourceEntity>01F1B661-D102-479B-C69C-60225FC05386</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>6A1368E4-A253-BD83-B390-73BB78AB65A8</targetEntity>
+<targetEntity>7917F983-C970-A4A5-F0B6-2775CEDB28AE</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

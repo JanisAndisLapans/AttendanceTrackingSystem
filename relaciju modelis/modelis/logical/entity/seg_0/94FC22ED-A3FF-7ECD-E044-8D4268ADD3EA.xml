@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6DAB2FE-4CF9-4DC7-430A-550E89FE151D" name="user">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94FC22ED-A3FF-7ECD-E044-8D4268ADD3EA" name="user">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>16F5EE73-CD55-28B0-4AE5-E7068D7DC318</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
@@ -16,51 +16,51 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="username" id="4F3BD7E8-4AD3-C3F8-EDED-44C7B4A458A7">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="username" id="E839C724-BE2B-DBA7-4F96-1A19F290D17B">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>B78763FD-6108-2EC9-9847-7C7E3E7B78CA</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<domain>5D407B29-BCBE-BA36-43F5-73D061C152C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="password" id="12E3FEAF-F089-A460-E933-636BA9F57FF5">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="password" id="B7B85FFF-6F64-20B3-5446-681437404C28">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>395B8477-2894-BC20-5F14-CDF01527FD39</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>256</dataTypeSize>
-<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<domain>C37EA4F4-E6F0-95E7-1F61-888E57AFC5B6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="B749315D-DFE8-5F05-3BEC-DF73C3E5403C">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="email" id="0F0DDF93-28A9-7F44-883F-DC001DFCD1A6">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>D062EACE-E268-C2B9-B234-DA246B48D7AC</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
+<use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>200</dataTypeSize>
-<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<domain>5D407B29-BCBE-BA36-43F5-73D061C152C4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="first name" id="3961B0E7-4E56-896C-8909-0A1C1912AEF0">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="first name" id="93BDB0D4-8658-D748-E2C8-FBF8F9C481C0">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>A3745122-546F-F905-A769-00743A6B354F</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
@@ -72,9 +72,9 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="last name" id="3FDAE353-F020-6854-6D7C-53B53B6A4055">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="last name" id="C0E95F73-41DC-8422-27B5-6CB5A07D3184">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>ACCE2098-7D28-FBB9-2BE3-6DEF60831DD9</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
@@ -86,26 +86,27 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="student code" id="83D67F16-5162-F671-304A-4B7C1CA27E76">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 10:39:53 UTC</createdTime>
+<Attribute name="student code" id="0B672BF6-C798-97CF-65E0-1571AF4AC597">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>6BB6FDB2-6F26-93E6-A6F9-4244E1312440</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="warn unattended" id="B1EFC230-FB3B-14F7-29D9-79581E07722B">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 11:48:03 UTC</createdTime>
+<Attribute name="warn unattended" id="2EB351B2-8A96-FE61-C55B-B2A5CC43985C">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <commentInRDBMS><![CDATA[Statistika par manis docetajiem kursiem: 1 - nesutit, 2 - sutit tikai kopsavilkumu semestra pedejas lekcijas beigas, 3 - sutit kopsavilkumu un atseviski par katru lekciju pec lekcijas
 Sutit epastu par manis kavetu lekciju - 1, 0 - nesutit]]></commentInRDBMS>
-<generatorID>704AD990-FD06-DC52-AA2D-EAC1C6C16F4C</generatorID>
+<generatorID>BA355633-F5B0-D92D-9F83-C5F12581D168</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -121,11 +122,11 @@ Sutit epastu par manis kavetu lekciju - 1, 0 - nesutit]]></commentInRDBMS>
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="send lecture statistic" id="F4E30781-585C-CDD7-DFC3-359647116622">
-<createdBy>Students</createdBy>
-<createdTime>2024-02-26 11:48:03 UTC</createdTime>
+<Attribute name="send lecture statistic" id="3613C925-D5DE-8234-FDD0-E68A44D3B377">
+<createdBy>dobbl</createdBy>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <commentInRDBMS><![CDATA[1 - Sutit epasta statistiku par manis doceto kursu apmekletibu pec katras lekcijas , 0 - nesutit]]></commentInRDBMS>
-<generatorID>1491546C-C918-8866-89D7-E9AF08D51A3E</generatorID>
+<generatorID>199ECD0C-4460-1F33-68B2-A65748EFB89F</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -141,38 +142,11 @@ Sutit epastu par manis kavetu lekciju - 1, 0 - nesutit]]></commentInRDBMS>
 </rangeDef>
 </listOfRanges>
 </Attribute>
-<Attribute name="send end statistic" id="7A6321F5-CDAF-679B-0029-A375D9F31FB5">
+<Attribute name="send end statistic" id="D03B3A45-77E2-E2C6-BE37-1545306805A6">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:05:27 UTC</createdTime>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <commentInRDBMS><![CDATA[1 - Sutit epasta statistiku par manis doceto kursu apmekletibu pec semestra pedejas lekcijas kursa , 0 - nesutit]]></commentInRDBMS>
-<ownerDesignName>modelis</ownerDesignName>
-<engineerTo>
-<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="name" id="C39132AA-8D5C-4623-CD82-4995756D3A51">
-<createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:12:09 UTC</createdTime>
-<generatorID>241E81F3-955A-C434-DD6A-11FF16AEB600</generatorID>
-<ownerDesignName>modelis</ownerDesignName>
-<engineerTo>
-<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
-</engineerTo>
-<referedAttribute>3FA03BFE-5F25-819A-FC54-9646F35B0228</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT037</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id" id="73BB306F-AA8D-E00A-30C6-3A196E07A467">
-<createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:16:31 UTC</createdTime>
-<generatorID>6E26409A-DF12-D433-3F2C-C08DA85B8BDE</generatorID>
+<generatorID>623B4184-8C41-F17A-DBB4-138895979860</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -182,10 +156,10 @@ Sutit epastu par manis kavetu lekciju - 1, 0 - nesutit]]></commentInRDBMS>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="4C54DAB5-9F98-A9CD-F1F0-28D749306798">
+<Attribute name="first login" id="4E8DE461-E39E-2489-83D9-EC4147148BC1">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:16:31 UTC</createdTime>
-<generatorID>612D8529-6220-97FE-DF0B-CE2EFD97FF34</generatorID>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
+<generatorID>04C56803-3B0E-769E-20AC-55A0C9F3812D</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
 <engineerTo>
 <item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
@@ -197,19 +171,15 @@ Sutit epastu par manis kavetu lekciju - 1, 0 - nesutit]]></commentInRDBMS>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9954197E-1FCB-2163-82A8-111C5BE47FC9" name="user PK">
+<identifier id="6C6BA890-87C8-177C-263D-935E131D8A02" name="user PK">
 <createdBy>dobbl</createdBy>
-<createdTime>2024-03-02 08:16:31 UTC</createdTime>
+<createdTime>2024-03-09 12:07:48 UTC</createdTime>
 <generatorID>8F0E8C8A-0652-BF7F-295C-9DC7B5B379CF</generatorID>
 <ownerDesignName>modelis</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="false"/>
+<item key="7B95C025-DC27-D53C-E1AF-606EC452CCF2" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>73BB306F-AA8D-E00A-30C6-3A196E07A467</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

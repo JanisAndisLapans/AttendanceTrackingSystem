@@ -28,7 +28,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="82B08F2B-094D-E5A1-E0A5-9D161BDFAE46" otype="Table" vid="262AF84F-9A3F-C433-98FC-373D5CAFF3A5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="745" y="702" width="237" height="165"/>
+<bounds x="730" y="672" width="237" height="165"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="87273738-3DCC-0F2A-847F-764D63B622D6" otype="Table" vid="E44DEC00-DD57-0A25-4B27-2D24903C2085">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -61,7 +61,7 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="BE206C46-86F3-85A6-33B0-18F33700BF68" otype="Table" vid="F1E8B710-2765-E73E-1DE6-04C1DD072A66">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="392" y="742" width="247" height="139"/>
+<bounds x="385" y="702" width="247" height="139"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="CF353519-D3F3-FC49-7447-1811C180A678" otype="Table" vid="38FD6A3B-9B6A-F286-8367-364BBB591F0E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -69,17 +69,26 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DFE3A441-32C9-228C-3711-8BC17E075745" otype="Table" vid="E9CA1E1C-1E13-6D61-7666-C8ADE48F523A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="836" y="485" width="226" height="188"/>
+<bounds x="768" y="465" width="226" height="188"/>
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="09DE69E2-5594-89E6-7B08-D2F1830584BA" otype="FKIndexAssociation" vid_source="9C1B9686-C601-1CDB-C52B-730843669F01" vid_target="38FD6A3B-9B6A-F286-8367-364BBB591F0E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="304" y="452"/>
+<point x="390" y="395"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="28F17879-1FBD-0077-5421-1894819424BB" otype="FKIndexAssociation" vid_source="F1E8B710-2765-E73E-1DE6-04C1DD072A66" vid_target="C1075E08-21E0-DDF4-A884-B72D558B6D9C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="557" y="742"/>
-<point x="757" y="434"/>
+<point x="555" y="702"/>
+<point x="735" y="434"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="29AD8D92-DC2D-8769-BB9F-8718FD9D81D7" otype="FKIndexAssociation" vid_source="13F91DD8-C5EA-DB8F-7BF2-F899A1816305" vid_target="38FD6A3B-9B6A-F286-8367-364BBB591F0E">
@@ -105,8 +114,8 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="304" y="644"/>
-<point x="457" y="742"/>
+<point x="304" y="631"/>
+<point x="407" y="702"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="83DE8124-F051-B8B8-3C24-9AA0B52F90A0" otype="FKIndexAssociation" vid_source="9C1B9686-C601-1CDB-C52B-730843669F01" vid_target="E44DEC00-DD57-0A25-4B27-2D24903C2085">
@@ -123,8 +132,8 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="392" y="802"/>
-<point x="293" y="802"/>
+<point x="385" y="801"/>
+<point x="293" y="801"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="C0A18C31-1D08-0472-9AFB-312022D289A6" otype="FKIndexAssociation" vid_source="712BC624-3768-DA15-5B48-17009A7B49DB" vid_target="C1075E08-21E0-DDF4-A884-B72D558B6D9C">
@@ -141,8 +150,8 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="568" y="394"/>
-<point x="836" y="524"/>
+<point x="561" y="395"/>
+<point x="768" y="500"/>
 </points>
 </Connector>
 <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E6816E10-7C3C-A2DE-E3A5-2B1DD430127C" otype="FKIndexAssociation" vid_source="C1075E08-21E0-DDF4-A884-B72D558B6D9C" vid_target="38FD6A3B-9B6A-F286-8367-364BBB591F0E">
@@ -159,8 +168,8 @@ Sistēmas kļūdas tiek saglabātas tabulā, ko var apskatīt datubāzes adminis
 <backgroundColor>-16777216</backgroundColor>
 <lineWidth>1</lineWidth>
 <points>
-<point x="304" y="590"/>
-<point x="745" y="743"/>
+<point x="304" y="586"/>
+<point x="730" y="717"/>
 </points>
 </Connector>
 </connectors>
